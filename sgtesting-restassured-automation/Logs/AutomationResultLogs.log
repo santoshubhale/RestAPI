@@ -1,0 +1,19 @@
+2024-01-30 10:24:04,946 INFO c.s.a.s.StepDefinitions [main] I provide createUser endpoint
+2024-01-30 10:24:05,294 INFO c.s.a.s.StepDefinitions [main] I get the RequestSpecification reference object
+2024-01-30 10:24:05,402 INFO c.s.a.s.StepDefinitions [main] I create request json object
+2024-01-30 10:24:05,404 INFO c.s.a.s.StepDefinitions [main] I assign pojo object to request
+2024-01-30 10:24:05,800 INFO c.s.a.s.StepDefinitions [main] I post the request
+2024-01-30 10:24:08,097 INFO c.s.a.s.StepDefinitions [main] {"id":14,"firstName":"Demo","lastName":"User1","phoneNumber":"8090601020","emailId":"demouser1@gmail.com","userRole":"Full Stack Developer","address":"Garage Bus stop Vijayanagar","stateName":"Karnataka","zipcode":574241,"createdAt":"2024-01-30T04:54:06.462+00:00","updatedAt":"2024-01-30T04:54:06.462+00:00"}
+2024-01-30 10:24:08,098 INFO c.s.a.s.StepDefinitions [main] I get the 201 status code
+2024-01-30 10:24:08,102 INFO c.s.a.s.StepDefinitions [main] I get the newly created user user_id
+2024-01-30 10:24:08,653 INFO c.s.a.s.StepDefinitions [main] User ID of the newly Created User 14
+2024-01-30 10:24:08,653 INFO c.s.a.s.StepDefinitions [main] I provide displayUser endpoint
+2024-01-30 10:24:08,654 INFO c.s.a.s.StepDefinitions [main] I get the RequestSpecification reference object
+2024-01-30 10:24:08,655 INFO c.s.a.s.StepDefinitions [main] i get the user response from the server
+2024-01-30 10:24:08,696 INFO c.s.a.s.StepDefinitions [main] {"id":14,"firstName":"Demo","lastName":"User1","phoneNumber":"8090601020","emailId":"demouser1@gmail.com","userRole":"Full Stack Developer","address":"Garage Bus stop Vijayanagar","stateName":"Karnataka","zipcode":574241,"createdAt":"2024-01-30T04:54:06.462+00:00","updatedAt":"2024-01-30T04:54:06.462+00:00"}
+2024-01-30 10:24:08,697 INFO c.s.a.s.StepDefinitions [main] I get the 200 status code
+2024-01-30 10:24:08,698 INFO c.s.a.s.StepDefinitions [main] I provide deleteUser endpoint
+2024-01-30 10:24:08,699 INFO c.s.a.s.StepDefinitions [main] I get the RequestSpecification reference object
+2024-01-30 10:24:08,700 INFO c.s.a.s.StepDefinitions [main] I delete the user from the server
+2024-01-30 10:24:08,894 INFO c.s.a.s.StepDefinitions [main] The User with User Id 14 has deleted successfully
+2024-01-30 10:24:08,894 INFO c.s.a.s.StepDefinitions [main] I get the 200 status code

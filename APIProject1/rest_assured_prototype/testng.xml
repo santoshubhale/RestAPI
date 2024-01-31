@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Testcases">
+	<test name="testcases">
+		<classes>
+			<class name="com.sgtesting.tests.api.testsuite.DriverScript"></class>
+		</classes>
+	</test>
+</suite>

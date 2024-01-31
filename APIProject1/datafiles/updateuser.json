@@ -1,0 +1,13 @@
+{
+  "address": "pune",
+  "createdAt": "2024-01-25T05:10:04.371Z",
+  "emailId": "santosh@gmail.com",
+  "firstName": "santosh",
+  "id": 0,
+  "lastName": "ubhale",
+  "phoneNumber": "7676977798",
+  "stateName": "maharastra",
+  "updatedAt": "2024-01-25T05:10:04.371Z",
+  "userRole": "software engineer",
+  "zipcode": 10
+}
